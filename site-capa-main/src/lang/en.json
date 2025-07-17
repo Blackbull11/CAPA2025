@@ -1,0 +1,205 @@
+{
+    "home": {
+        "hero": {
+            "titre": "Welcome to IMT Nord Europe !",
+            "description": "During nearly three weeks of integration, the CAPA <i>(welcoming comitee for newcomers)</i> will organise for you lots of activities, parties and surprises to help you discover the school and better integrate into your future class.",
+            "lien-infos": "Learn more",
+            "down-arrow": "Learn more about the integration..."
+        },
+        "bento": {
+            "titre": "The integration, it's...",
+            "equipe":{
+                "titre": "An amazing team",
+                "description": "The CAPA team is composed of 44 people who organised everything, to make your integration incredible !",
+                "lien": "See the CAPA team..."
+            },
+            "guide":{
+                "titre": "A starter guide",
+                "description": "The Meudian's guide contains all the informations that you need to organize your arrival at the residence !",
+                "lien": "Read the Meudian's guide…"
+            },
+            "wei":{
+                "titre": "A surprise week-end",
+                "description": "The WEI is an entire week-end full of surprises in a place that is secret until the end of the integration !",
+                "lien": "What you need to know about the WEI"
+            },
+            "assos":{
+                "titre": "A full life",
+                "description": "In the MEUD, there are also lots of associations to give to each and everyone new unforgettable experiences",
+                "lien": "Learn more about the associations…"
+            }
+        },
+        "sponsors": {
+            "titre": "Thanks to our sponsors !"
+        },
+        "savoir-plus": {
+            "titre": "Learn more :",
+            "btn-guide": "Read the Meudian's guide",
+            "btn-videos": "Watch the videos",
+            "btn-residences": "Visit the residences online"
+        }
+    },
+    "navbar": {
+        "accueil": "Home",
+        "infos": "Informations",
+        "ecole": {
+            "section": "The school",
+            "videos": "Some videos",
+            "douai": "Life in Douai",
+            "assos": "Associations"
+        },
+        "inte": {
+            "section": "The integration",
+            "calendrier": "Calendar",
+            "equipe": "The team",
+            "classement": "Ranking",
+            "defis": "Challenges",
+            "wei": "WEI"
+        },
+        "guide": "Meudian's guide",
+        "contact": "Contact us"
+    },
+    "footer": {
+        "love": "Made with love",
+        "liens-ecole": "School links",
+        "isis": "ISIS <i>(Inscription)</i>",
+        "myservices": "My Services",
+        "hypair": "HypAIR",
+        "reseaux": "Our social medias",
+        "suis-nous": "Don't hesitate to follow us !"
+    },
+    "alerts": {
+        "wrong-route": "The URL '{{pathname}}' doesn't exist !"
+    },
+    "wip": {
+        "titre": "Coming soon...",
+        "explication": "This website is still under construction, come back later, we are working hard to make this page accessible as soon as possible !",
+        "retour": "Return",
+        "accueil": "Main page"
+    },
+    "infos": {
+        "guide": {
+            "titre": "To prepare for your arrival",
+            "texte": "You will soon join IMT Nord Europe, and maybe settle at the MEUD, but befor that, <strong>there are lots of things to know</strong>. And to summarize all of that, <strong>we wrote a full guide, with all the informations that you need to know to prepare for your arrival, and to better know the school and the residence.</strong>",
+            "liste": {
+                "intro": "Inside, you will find :",
+                "affaires": "The <strong>list of the items</strong> that you will need",
+                "dates": "The <strong>key dates</strong> of the integration and the start of the academic year",
+                "chambres": "More informations about <strong>the rooms at the residence</strong>",
+                "conseils": "And <strong>many more tips</strong> that are very helpful..."
+            },
+            "cta": "So don't hesitate to give it a look !",
+            "btn": "Read the Meudian's guide"
+        },
+        "residence": {
+            "titre": "Know the residence",
+            "texte": "There is a good chance that you will <strong>live at the MEUD</strong> during your studies. That's the reason why we wanted to show you better what <strong>your next residence</strong> will look like.<br/>Our CAPA members open the doors of their <strong>studios, rooms or co-shower</strong> in order to help you choose you future home !",
+            "btn": {
+                "douai": "Discover life in Douai",
+                "videos": "See more videos",
+                "equipe": "Know the CAPA team"
+            }
+        },
+        "faq": {
+            "titre": "Frequently Asked Questions",
+            "texte": "After reading through the entire guide and website, it's possible that you still have <strong>some questions</strong>. We hope that we can answer it in this <strong>FAQ<strong>.<br/>If you still don't have your answer, <strong>Don't hesitate to contact us</strong>",
+            "btn": {
+                "contact": "Contact the CAPA",
+                "guide": "Read the Meudian's guide",
+                "douai": "Discover life in Douai"
+            }
+        }
+    },
+    "videos": {
+
+    },
+    "douai": {
+
+    },
+    "assos": {
+
+    },
+    "calendrier": {
+        "titre": "integration's calendar",
+        "jours": {
+            "lundi": "Monday",
+            "mardi": "Tuesday",
+            "mercredi": "Wednesday",
+            "jeudi": "Thursday",
+            "vendredi": "Friday",
+            "samedi": "Saturday",
+            "dimanche": "Sunday"
+        },
+        "mois": {
+            "aout": "August",
+            "septembre": "September"
+        }
+    },
+    "equipe": {
+        "bureau": {
+            "titre": "Bureau",
+            "description": "They manage all the CAPA. They did everything they could to make your integration happen in the best possible conditions !"
+        },
+        "anim": {
+            "titre": "Events team",
+            "description": "They prepared every activities and parties. Thanks to them, you will live the 3 best weeks of your life !"
+        },
+        "com": {
+            "titre": "Communications team",
+            "description": "They will accompany you through the entire integration, giving you every information you need. They wrote the Meudian's guide and made this website among other stuff. We might as well say that they are the bests of the bests CAPA members ;)"
+        },
+        "sponso": {
+            "titre": "Sponsos team",
+            "description": "They have found the best deals in Douai just for you, and also have many partners to facilitate your move to the MEUD."
+        },
+        "log": {
+            "titre": "Logistics team",
+            "description": "They handle all the technical aspects of the integration. They are everywhere at once, and always ready to help !"
+        },
+        "wei": {
+            "titre": "WEI team",
+            "description": "They organised the WEI, but shhh ! We can't tell you more for now :)"
+        },
+        "job": {
+            "prez": "President",
+            "vice-prez": "Vice-President",
+            "treso": "Treasurer",
+            "screz": "Secretary",
+            "respo-anim": "Events head",
+            "anim": "Events",
+            "respo-com": "Communications head",
+            "com": "Communications",
+            "respo-sponso": "Sponsos head",
+            "sponso": "Sponsos",
+            "respo-log": "Logistics head",
+            "log": "Logistics",
+            "respo-wei": "WEI head",
+            "wei": "WEI"
+        }
+    },
+    "contact": {
+        "voir-plus": {
+            "telephone": "Phone",
+            "mail": "E-mail",
+            "insta": "Instagram",
+            "adresse": "Address"
+        },
+        "capa": {
+            "titre": "The CAPA",
+            "texte": "The CAPA is here to organize the hole integration. If you have anything to tell us/ask us before the integration, don't hesitate to contact us."
+        },
+        "admisseurs": {
+            "titre": "Student ambassadors",
+            "texte": "Students ambassadors are students that can answer all your questions abour the school, the integration, or the associations. Don't hesitate to take a look at their Instagram or to send them a message !"
+        },
+        "admin": {
+            "titre": "School administration",
+            "texte": "The school administration is here to answer to all your questions during your administrative inscription procedures and appartment booking."
+        },
+        "adresses": {
+            "titre": "Useful addresses",
+            "texte": "All the places you will need to visit regularely during your school year."
+        },
+        "bug": "If you detect any bug, or any mistakes in this website, please contact <mailBug>{{mail}}</mailBug> !"
+    }
+}

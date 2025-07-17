@@ -1,0 +1,42 @@
+//devcontainer.json
+{
+  "name": "Site CAPA",
+
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+          "dbaeumer.vscode-eslint",
+          "bradlc.vscode-tailwindcss",
+          "tonybaloney.vscode-pets"
+      ]
+    }
+  },
+
+  // "forwardPorts": [3000, 4173, 5173],
+
+  "portsAttributes": {
+    "5173": {
+      "label": "Static dev website (using only Vite's dev mode)",
+      "onAutoForward": "notify"
+    },
+    "4173": {
+      "label": "Static preview website (using only Vite's preview mode)",
+      "onAutoForward": "notify"
+    },
+    "3000": {
+      "label": "Website complete dev server (with the express API)",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "npm install"
+
+  // "remoteUser": "root"
+}

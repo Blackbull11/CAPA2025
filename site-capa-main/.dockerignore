@@ -1,0 +1,10 @@
+# Modules npm
+node_modules/
+
+# Dossiers et fichiers de config
+.devcontainer/
+.git/
+.vscode/
+.eslintrc.cjs
+.gitignore
+package-lock.json

@@ -1,0 +1,13 @@
+services:
+  web:
+    env_file:
+      - path: ./.env
+        required: true
+      - path: ./.env.production
+        required: false
+    image: site-capa/server-web
+    build:
+      context: .
+      dockerfile: ./.docker/already-build.Dockerfile
+    ports:
+     - ${EXTERNAL_PORT}:${PORT}

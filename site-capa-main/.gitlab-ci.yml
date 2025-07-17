@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+production:
+  stage: deploy
+  script:
+    - cd /var/www/html/site-capa-v2/
+    - git stash
+    - git pull
+    - npm install
+    - npm run build
+    - npm run docker-prod
+  environment:
+    name: Site CAPA
+    url: https://capa.etu.imt-nord-europe.fr/
+  only:
+    - main
+  allow_failure: true

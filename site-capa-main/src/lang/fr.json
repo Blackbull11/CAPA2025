@@ -1,0 +1,216 @@
+{
+    "home": {
+        "hero": {
+            "titre": "Bienvenue à IMT Nord Europe !",
+            "description": "Pendant près de trois semaines d'intégration, le CAPA <i>(Comité d'Accueil des Premiers Arrivants)</i> te proposera plein d'activités, de soirées et de surprises pour t'aider à découvrir l'école et mieux t'intégrer dans ta future promo.",
+            "lien-infos": "En savoir plus",
+            "down-arrow": "En savoir plus sur l'intégration..."
+        },
+        "bento": {
+            "titre": "L'intégration, c'est…",
+            "equipe":{
+                "titre": "Une équipe de fou",
+                "description": "L'équipe du CAPA, c'est 42 personnes qui ont tout organisés pour que ton intégration soit incroyable !",
+                "lien": "Voir l'équipe du CAPA…"
+            },
+            "guide":{
+                "titre": "Un guide complet",
+                "description": "Le guide du Meudien contient toutes les informations dont tu as besoin pour organiser ton arrivée à la résidence !",
+                "lien": "Lire le guide du Meudien…"
+            },
+            "wei":{
+                "titre": "Un week-end surprise",
+                "description": "Le WEI, c'est un week-end complet plein de surprises dans un endroit tenu secret jusqu'à la fin de l'intégration !",
+                "lien": "Ce qu'il faut savoir pour le WEI…"
+            },
+            "assos":{
+                "titre": "Une vie bien remplie",
+                "description": "À la MEUD, il y a aussi plein d'associations pour faire vivre à chaque personne de nouvelles expériences inoubliables !",
+                "lien": "En savoir plus sur les associations…"
+            }
+        },
+        "sponsors": {
+            "titre": "Grâce à nos sponsos !"
+        },
+        "savoir-plus": {
+            "titre": "Pour en savoir plus :",
+            "btn-guide": "Lire le guide du Meudien",
+            "btn-videos": "Regarder les vidéos",
+            "btn-residences": "Voir les résidences"
+        }
+    },
+    "navbar": {
+        "accueil": "Accueil",
+        "infos": "Informations",
+        "ecole": {
+            "section": "L'école",
+            "videos": "Quelques vidéos",
+            "douai": "La vie à Douai",
+            "assos": "Les associations"
+        },
+        "inte": {
+            "section": "L'intégration",
+            "calendrier": "Calendrier",
+            "equipe": "L'équipe",
+            "classement": "Classement",
+            "wei": "WEI"
+        },
+        "guide": "Guide du Meudien",
+        "questionnaire": "Questionnaire parrain-fillot",
+        "contact": "Contact"
+    },
+    "footer": {
+        "love": "Fait avec amour",
+        "liens-ecole": "Liens école",
+        "isis": "ISIS <i>(Inscription)</i>",
+        "myservices": "My Services",
+        "hypair": "HypAIR",
+        "reseaux": "Nos réseaux sociaux",
+        "suis-nous": "N'hésite pas à nous suivre !"
+    },
+    "alerts": {
+        "wrong-route": "L'URL '{{pathname}}' n'existe pas !"
+    },
+    "wip": {
+        "titre": "Cette page arrive bientôt...",
+        "explication": "Le site est encore en construction, reviens voir plus tard, on travaille dur pour te délivrer ça au plus vite !",
+        "retour": "Retour",
+        "accueil": "Page principale"
+    },
+    "infos": {
+        "guide": {
+            "titre": "Pour préparer ton arrivée",
+            "texte": "Tu vas bientôt intégrer IMT Nord Europe, et peut-être t'installer à la MEUD, mais avant cela, <strong>il y a pas mal de choses à savoir</strong>. Et pour synthétiser tout cela, <strong>on a écrit pour toi un guide complet, avec toutes les informations nécessaires pour préparer ton arrivée et pour mieux connaitre l'école et la résidence.</strong>",
+            "liste": {
+                "intro": "Dedans, tu y trouveras notamment :",
+                "affaires": "La <strong>liste des affaires</strong> dont tu auras besoin",
+                "dates": "Les <strong>dates clés</strong> de l'intégration et de la rentrée",
+                "chambres": "Plus d'informations sur <strong>les chambres à la résidence</strong>",
+                "conseils": "Et <strong>plein d'autres conseils</strong> bien pratiques..."
+            },
+            "cta": "Alors n'hésite pas à y jeter un coup d'œil !",
+            "btn": "Lire le guide du Meudien"
+        },
+        "residence": {
+            "titre": "Connaître la résidence",
+            "texte": "Il y a de grandes chances que tu <strong>loges à la MEUD</strong> durant ton cursus, c'est pour ça que l'on souhaitait te montrer un peu à quoi ressemble <strong>ta prochaine résidence</strong>.<br/>Nos CAPA t'ouvrent leurs portes de leurs <strong>studios, chambres ou co-douches</strong> afin de t'aider à choisir ton futur chez-toi !",
+            "btn": {
+                "douai": "Découvrir la vie à Douai",
+                "videos": "Voir plus de vidéos",
+                "equipe": "Connaître l'équipe du CAPA"
+            }
+        },
+        "faq": {
+            "titre": "Foire aux questions",
+            "texte": "Après avoir parcouru l'ensemble du guide et du site, il est possible qu'il te reste <strong>quelques questions</strong>. On espère pouvoir y répondre dans cette <strong>FAQ</strong>.<br/>Si tu n'as toujours pas ta réponse, <strong>n'hésite pas à nous contacter</strong>, nous ou un.e admisseur.e !",
+            "btn": {
+                "contact": "Contacter le CAPA",
+                "guide": "Lire le guide du Meudien",
+                "douai": "Découvrir la vie à Douai"
+            }
+        }
+    },
+    "videos": {
+
+    },
+    "douai": {
+
+    },
+    "assos": {
+
+    },
+    "calendrier": {
+        "titre": "Calendrier de l'inté",
+        "jours": {
+            "lundi": "Lundi",
+            "mardi": "Mardi",
+            "mercredi": "Mercredi",
+            "jeudi": "Jeudi",
+            "vendredi": "Vendredi",
+            "samedi": "Samedi",
+            "dimanche": "Dimanche"
+        },
+        "moment": {
+            "jour": "Journée",
+            "matin": "Matin",
+            "aprem": "Aprèm",
+            "soir": "Soir",
+            "weekend": "Week-end"
+        },
+        "mois": {
+            "aout": "août",
+            "septembre": "septembre"
+        }
+    },
+    "equipe": {
+        "bureau": {
+            "titre": "Bureau",
+            "description": "Ce sont eux qui s'occupent de toute la gestion du CAPA. Ils ont tout géré pour faire en sorte que ton intégration se passe dans les meilleures conditions possibles !"
+        },
+        "anim": {
+            "titre": "Pôle Anim",
+            "description": "Ce sont eux qui t'ont préparé toutes les activités et les soirées. Grâce à eux, tu vas pouvoir passer les 3 meilleures semaines de toute ta vie !"
+        },
+        "com": {
+            "titre": "Pôle Com",
+            "description": "Ce sont eux qui t'accompagneront tout le long de l'inté en te fournissant toutes les infos dont tu as besoin. Ils ont notamment rédigé le Guide du Meudien et fait ce site web. Autant te dire que c'est la crème de la crème du CAPA ;)"
+        },
+        "sponso": {
+            "titre": "Pôle Sponso",
+            "description": "Ce sont eux qui t'ont déniché les meilleurs bons plans de Douai, ainsi que plein de partenaires pour faciliter ton emménagement à la MEUD."
+        },
+        "log": {
+            "titre": "Pôle Log",
+            "description": "Ce sont eux qui s'occupent de tout l'aspect technique de l'intégration. Ils sont un peu partout à la fois, et toujours prêts à aider !"
+        },
+        "wei": {
+            "titre": "Pôle Wei",
+            "description": "Ce sont les organisateurs du WEI, mais on t'en dit pas plus pour le moment :)"
+        },
+        "job": {
+            "prez": "Présidente",
+            "vice-prez": "Vice-Président",
+            "treso": "Trésorier",
+            "screz": "Secrétaire",
+            "respo-anim": "Respo Anim",
+            "anim": "Anim",
+            "respo-com": "Respo Com",
+            "com": "Com",
+            "respo-sponso": "Respo Sponso",
+            "sponso": "Sponso",
+            "respo-log": "Respo Log",
+            "log": "Log",
+            "respo-wei": "Respo WEI",
+            "wei": "WEI"
+        }
+    },
+    "contact": {
+        "voir-plus": {
+            "telephone": "Téléphone",
+            "mail": "E-mail",
+            "insta": "Instagram",
+            "adresse": "Adresse"
+        },
+        "capa": {
+            "titre": "Le CAPA",
+            "texte": "Le CAPA est là pour organiser toute l'intégration. Si tu as des choses à nous communiquer avant l'intégration, n'hésite pas à nous contacter."
+        },
+        "admisseurs": {
+            "titre": "Les admisseur.e.s",
+            "texte": "Les admisseur.e.s sont des élèves qui peuvent répondre à toutes tes questions sur l'école, l'intégration, la vie associative. N'hésite pas à allez voir leurs Instagrams ou à leur envoyer un message !"
+        },
+        "admin": {
+            "titre": "L'administration",
+            "texte": "L'administration de l'école est là pour répondre à tes questions lors de tes démarches admistratives d'inscription et de demande de logement."
+        },
+        "adresses": {
+            "titre": "Adresses utiles",
+            "texte": "Tous les endroits dans lesquels tu sera ammené.e à aller pendant ton année scolaire."
+        },
+        "vss": {
+            "titre": "Référents VSS",
+            "texte": "Si tu est témoins ou victime de violences sexistes et sexuelles, tu peux prendre contact avec les référents VSS. Ce sont des étudiants ou des personnels de l'école formés pour t'écouter et te conseiller. "
+        },
+        "bug": "Si tu detectes un bug ou une faute sur le site, contacte <mailBug>{{mail}}</mailBug> !"
+    }
+}
