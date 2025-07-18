@@ -29,9 +29,12 @@ const Sponsor = () => {
 
     return (
         <>
-        <HighlightedText className='mt-32 mb-16 text-3xl md:text-5xl text-center font-extrabold font-title m-auto w-max'>
-            { t('home.sponsors.titre') }
-        </HighlightedText>
+        <div className="z-10 relative">
+            <HighlightedText className='mt-32 mb-16 text-3xl md:text-5xl text-center font-extrabold font-title m-auto w-max'>
+                { t('home.sponsors.titre') }
+            </HighlightedText>
+        </div>
+        
 
         <div className="text-center">
             <div className="mx-auto w-screen sm:max-w-lg md:max-w-3xl lg:max-w-6xl [mask-image:_linear-gradient(to_right,transparent_0,_black_10%,_black_90%,transparent_100%)]">

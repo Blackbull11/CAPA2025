@@ -68,9 +68,11 @@ const Bento = () => {
 
     return (
         <>
-        <HighlightedText className='text-3xl md:text-5xl text-center font-extrabold font-title mx-auto w-max' >
-            { t('home.bento.titre') }
-        </HighlightedText>
+        <div className="z-10 relative">
+            <HighlightedText className='text-3xl md:text-5xl text-center font-extrabold font-title mx-auto w-max' >
+                { t('home.bento.titre') }
+            </HighlightedText>
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mx-auto px-8 max-w-sm sm:max-w-lg md:max-w-3xl lg:max-w-6xl my-12">
             <Card 
                 link='/equipe'

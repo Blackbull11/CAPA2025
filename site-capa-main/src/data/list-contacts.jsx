@@ -9,11 +9,12 @@ import adam from '../assets/contacts/adam.jpg';
 import haire from '../assets/contacts/haire.jpg';
 import hadoux from '../assets/contacts/hadoux.jpg';
 import andre from '../assets/contacts/andre.jpg';
-import anneso from '../assets/contacts/anneso.jpg';
-import mathilde from '../assets/contacts/mathilde.jpg';
 import remi from '../assets/contacts/remi.jpg';
 import vincent from '../assets/contacts/vincent.jpg';
-import zoeVss from '../assets/contacts/zoe-vss.jpg';
+import shirel from '../assets/contacts/shirel.png'; 
+import ambre from '../assets/contacts/ambre.png';
+import louanne from '../assets/contacts/lou-anne.png';
+
 
 const contacts = {
     'sami': {
@@ -90,62 +91,48 @@ const contacts = {
     },
     'descartes': {
         name: 'Descartes',
-        adresse: '263 rue du Grand Bail, 59500 DOUAI',
+        adresse: '243 Rue du Kiosque, 59500 DOUAI',
         coordinates: [50.36451392785854, 3.0754859723243433],
         description: 'Résidence'
     },
     'condo': {
         name: 'Condorcet',
-        adresse: '263 rue du Grand Bail, 59500 DOUAI',
-        coordinates: [50.36660170683412, 3.075758174182277],
+        adresse: '27 Pl. de Mons, 59500 Douai',
+        coordinates: [50.366823199455666, 3.075680020137089],
         description: 'Résidence'
     },
     'bourseul': {
         name: 'Bourseul',
-        adresse: '263 rue du Grand Bail, 59500 DOUAI',
+        adresse: '1015 Rue Charles Bourseul, 59500 DOUAI',
         coordinates: [50.375611697719435, 3.067599094107152],
         description: 'Lieu des cours'
     },
     'lahure': {
         name: 'Lahure',
-        adresse: '263 rue du Grand Bail, 59500 DOUAI',
-        coordinates: [50.38721839458104, 3.083132405947979],
+        adresse: '764 Bd Lahure, 59500 Douai',
+        coordinates: [50.386586968718056, 3.08249967602288],
         description: 'Centre de recherche'
     },
-    'remi': {
-        name: 'Rémi Parent',
-        tel: '0648689206',
-        email: 'remi.parent@etu.imt-nord-europe.fr',
-        description: "Président Égal'IMT",
-        img: remi
+    'louanne': {
+        name: 'Lou-Anne Jund',
+        tel: '0695382520',
+        email: 'lou-anne.jund@etu.imt-nord-europe.fr ',
+        description: "Référente VSS",
+        img: louanne
     },
-    'mathilde': {
-        name: 'Mathilde Meleck',
-        tel: '0681538416',
-        email: 'mathilde.meleck@etu.imt-nord-europe.fr',
-        description: "Vice-présidente Égal'IMT",
-        img: mathilde
+    'ambre': {
+        name: 'Ambre N\'Doassingar',
+        tel: '0783191634',
+        email: 'ambre.n.doassingar@etu.imt-nord-europe.fr',
+        description: "Référente du Comité Égal'IMT",
+        img: ambre
     },
-    'zoe-vss': {
-        name: 'Zoé Coirre',
-        tel: '0782745656',
-        email: 'zoe.coirre@etu.imt-nord-europe.fr',
-        description: 'Vice-présidente CAPA',
-        img: zoeVss
-    },
-    'andre': {
-        name: 'André Akue Asseko',
-        tel: '0327712175',
-        email: 'andre.akue.asseko@imt-nord-europe.fr',
-        description: 'Référent égalité et VSS',
-        img: andre
-    },
-    'anneso': {
-        name: 'Anne-Sophie Leuliette',
-        tel: '0660454785',
-        email: 'as.leuliette@imt-nord-europe.fr',
-        description: 'Respo PVE',
-        img: anneso
+    'shirel': {
+        name: 'Shirel Rozenblat',
+        tel: '0674986468',
+        email: 'shirel.rozenblat@etu.imt-nord-europe.fr',
+        description: 'Référente VSS',
+        img: shirel
     },
     'vincent': {
         name: 'Vincent Six',
@@ -154,6 +141,14 @@ const contacts = {
         description: 'Officier de sécurité',
         img: vincent
     },
+    'andre': {
+        name: 'André Akue Asseko',
+        tel: '0327712175',
+        email: 'andre.akue.asseko@imt-nord-europe.fr',
+        description: 'Référent égalité et VSS',
+        img: andre
+    },
+
 };
 
 export default contacts;

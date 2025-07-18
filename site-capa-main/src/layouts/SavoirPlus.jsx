@@ -19,9 +19,11 @@ const SavoirPlus = () => {
 
     return(
         <>
-        <HighlightedText className='mt-32 mb-16 text-3xl md:text-5xl text-center font-extrabold font-title m-auto w-max'>
-            { t('home.savoir-plus.titre') }
-        </HighlightedText>
+        <div className="z-10 relative">
+            <HighlightedText className='mt-32 mb-16 text-3xl md:text-5xl text-center font-extrabold font-title m-auto w-max'>
+                { t('home.savoir-plus.titre') }
+            </HighlightedText>
+        </div>
         <div className="flex flex-col items-center lg:flex-row w-auto mx-4 sm:max-w-96 sm:mx-auto lg:mx-auto lg:max-w-6xl gap-8">
             <div className="flex flex-col justify-end gap-6 items-center h-[30rem] w-full lg:w-1/3 bg-secondary/35 rounded-3xl pb-6">
                 <a href={ i18n.language=='en' ? links.meudianGuide : links.guideMeudien } target="_blank">

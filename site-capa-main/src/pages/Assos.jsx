@@ -24,7 +24,7 @@ const Assos = () => {
     return(
         <>
         <ScrollToTop />
-        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8">
+        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8  z-10 relative">
             <HighlightedText className="text-4xl mb-6 before:bg-[#b8c4a6] md:text-5xl text-center font-extrabold font-title mx-auto">Le BDE et ses comités</HighlightedText>
             <Association 
                 className="mx-auto"
@@ -38,7 +38,7 @@ const Assos = () => {
                 )}
             </div>
         </div>
-        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8">
+        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8 z-10 relative">
             <HighlightedText className="text-4xl mb-6 before:bg-[#bd57c7] md:text-5xl text-center font-extrabold font-title mx-auto">Le BDA et ses comités</HighlightedText>
             <Association 
                 className="mx-auto"
@@ -52,7 +52,7 @@ const Assos = () => {
                 )}
             </div>
         </div>
-        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8">
+        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8  z-10 relative">
             <HighlightedText className="text-4xl mb-6 before:bg-[#8b1eed] md:text-5xl text-center font-extrabold font-title mx-auto">Le BDS et ses comités</HighlightedText>
             <Association 
                 className="mx-auto"
@@ -66,7 +66,7 @@ const Assos = () => {
                 )}
             </div>
         </div>
-        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8">
+        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8 z-10 relative">
             <HighlightedText className="text-4xl mb-6 before:bg-[#fdb381] md:text-5xl text-center font-extrabold font-title mx-auto">Le BDH et ses comités</HighlightedText>
             <Association 
                 className="mx-auto"
@@ -80,7 +80,7 @@ const Assos = () => {
                 )}
             </div>
         </div>
-        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8">
+        <div className="flex flex-col px-8 w-full max-w-6xl mx-auto mt-12 mb-24 items-center md:items-start gap-8 z-10 relative">
             <HighlightedText className="text-4xl mb-6 before:bg-primary md:text-5xl text-center font-extrabold font-title mx-auto">Comités indépendants</HighlightedText>
             <div className="flex flex-row flex-wrap justify-evenly w-full gap-8">
                 <Association 
@@ -98,7 +98,7 @@ const Assos = () => {
             </div>
         </div>
         <dialog ref={ modalAssos } className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box lg:max-w-2xl xl:max-w-4xl">
+            <div className="modal-box lg:max-w-2xl xl:max-w-4xl z-10 relative">
                 { currentAsso && (<>
                     <form method="dialog">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>

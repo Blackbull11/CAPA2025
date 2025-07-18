@@ -111,7 +111,7 @@ const Douai = () => {
 const Gallery = ({ images, title, children }) => {
     return (
         <>
-        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8">
+        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8 z-10 relative">
             <HighlightedText className='text-3xl mb-6 md:text-5xl text-center font-extrabold font-title mx-auto'>{ title }</HighlightedText>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-10 mx-auto">
                 { images.map((image, index) => (<>

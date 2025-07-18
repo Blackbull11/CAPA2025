@@ -23,7 +23,7 @@ const Calendrier = () => {
     return (
         <>
         <ScrollToTop />
-        <div className="mt-10 mb-20 max-w-xl lg:max-w-7xl mx-auto">
+        <div className="mt-10 mb-20 max-w-xl lg:max-w-7xl mx-auto  z-10 relative">
             <HighlightedText className='text-3xl mb-12 md:text-5xl text-center font-extrabold font-title w-max mx-auto'>{ t('calendrier.titre') }</HighlightedText>
             <div className="hidden lg:grid lg:grid-cols-7 gap-4 mb-2 mx-6">
                 <p className="font-subtitle font-extrabold text-center">{ t('calendrier.jours.lundi') }</p>

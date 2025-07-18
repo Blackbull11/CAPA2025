@@ -13,7 +13,7 @@ const Hero = () => {
     return (
         <>
         <div className="hero min-h-[70vh]">
-            <div className="hero-content flex-col lg:flex-row-reverse gap-10">
+            <div className="hero-content flex-col lg:flex-row-reverse gap-10 max-w-[90vw]">
                 <div className="max-w-sm">
                     {/*<div className="z-0 bg-primary pointer-events-none absolute start-20 aspect-square w-96 rounded-full opacity-20 blur-3xl"></div>*/}
                     <img src={ logo } className='min-w-72 sm:min-w-96 mt-4 lg:mt-0'/>

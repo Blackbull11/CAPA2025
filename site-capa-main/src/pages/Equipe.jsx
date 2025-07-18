@@ -71,7 +71,7 @@ const SectionEquipe = ({ title, description, peopleList, img}) => {
     return (
         <>
         <div className="lg:flex odd:flex-row even:flex-row-reverse gap-16 max-w-[500px] lg:max-w-6xl mx-auto px-8">
-            <div className="lg:w-1/2 flex flex-col gap-8">
+            <div className="lg:w-1/2 flex flex-col gap-8 z-10 relative">
                     <HighlightedText className="text-4xl md:text-5xl text-center font-extrabold font-title mx-auto mb-2">
           { title }
         </HighlightedText>

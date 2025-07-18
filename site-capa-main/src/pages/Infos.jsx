@@ -84,7 +84,7 @@ const Infos = () => {
     return (
         <>
         <ScrollToTop />
-        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8">
+        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8 z-10 relative ">
             <HighlightedText className='text-3xl mb-6 md:text-5xl text-center font-extrabold font-title mx-auto'>{ t('infos.guide.titre') }</HighlightedText>
             <div className="flex flex-col items-center md:items-start text-center md:text-start md:flex-row leading-relaxed text-pretty w-full">
                 <div>
@@ -105,32 +105,32 @@ const Infos = () => {
                         </span></li>
                     </ul>
                     <Trans t={t} i18nKey='infos.guide.cta' /><br/>
-                    <a href={ i18n.language=='en' ? links.meudianGuide : links.guideMeudien } target="_blank" className="group btn btn-primary items-center mt-6 hidden md:inline-flex">
+                    <a href={ i18n.language=='en' ? links.meudianGuide : links.guideMeudien } target="_blank" className="z-10 group btn btn-primary items-center mt-6 hidden md:inline-flex">
                         { t('infos.guide.btn') }
                         <ArrowRight size={20} className="group-hover:ml-2 transition-all duration-150"/>
                     </a>
                 </div>
                 <a href={ i18n.language=='en' ? links.meudianGuide : links.guideMeudien } target="_blank" className="md:ml-10 mt-10 md:mt-0 shrink-0 w-[18rem]">
-                    <Book className='mx-auto' cover={ i18n.language=='en' ? coverMeudiansGuide : coverGuideMeudien }/>
+                    <Book className='relative z-0 mx-auto' cover={ i18n.language=='en' ? coverMeudiansGuide : coverGuideMeudien }/>
                 </a>
                 <a className="group btn btn-primary w-full max-w-96 mt-6 inline-flex md:hidden">
                     { t('infos.guide.btn') }
                 </a>
             </div>
         </div>
-        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8">
+        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8 z-10 relative">
             <HighlightedText className='text-3xl mb-6 md:text-5xl text-center font-extrabold font-title mx-auto'>{ t('infos.residence.titre') }</HighlightedText>
             <div className="text-center leading-relaxed">
                 <Trans t={t} i18nKey='infos.residence.texte' />
             </div>
             <VideoPlayer ytId='yOz4N0QTf3M' className='rounded-3xl' disableAutoplay />
             <div className="flex flex-col-reverse md:flex-row gap-4 items-center w-full justify-center">
-                <Link to='/douai' className="btn btn-primary w-full max-w-96 md:w-auto">{ t('infos.residence.btn.douai') }</Link>
-                <Link to='/videos' className="btn btn-secondary w-full max-w-96 md:w-auto">{ t('infos.residence.btn.videos') }</Link>
-                <Link to='/equipe' className="btn btn-secondary w-full max-w-96 md:w-auto">{ t('infos.residence.btn.equipe') }</Link>
+                <Link to='/douai' className="btn bg-[rgba(253,224,71,0.7)] text-black border-none hover:bg-[rgba(250,204,21,0.7)]  w-full max-w-96 md:w-auto">{ t('infos.residence.btn.douai') }</Link>
+                <Link to='/videos' className="btn bg-[rgba(253,224,71,0.7)] text-black border-none hover:bg-[rgba(250,204,21,0.7)]  w-full max-w-96 md:w-auto">{ t('infos.residence.btn.videos') }</Link>
+                <Link to='/equipe' className="btn bg-[rgba(253,224,71,0.7)] text-black border-none hover:bg-[rgba(250,204,21,0.7)]  w-full max-w-96 md:w-auto">{ t('infos.residence.btn.equipe') }</Link>
             </div>
         </div>
-        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8">
+        <div className="flex flex-col w-full max-w-5xl mx-auto mt-12 mb-24 px-6 items-center md:items-start gap-8 z-10 relative">
             <HighlightedText className='text-3xl mb-6 md:text-5xl text-center font-extrabold font-title mx-auto'>{ t('infos.faq.titre') }</HighlightedText>
             <div className="text-center leading-relaxed">
                 <Trans t={t} i18nKey='infos.faq.texte' />
@@ -150,9 +150,9 @@ const Infos = () => {
                 </>))}
             </div>
             <div className="flex flex-col-reverse md:flex-row gap-4 items-center w-full justify-center">
-                <Link to='/contact' className="btn btn-primary w-full max-w-96 md:w-auto">{ t('infos.faq.btn.contact') }</Link>
-                <a href={ i18n.language=='en' ? links.meudianGuide : links.guideMeudien } className="btn btn-secondary w-full max-w-96 md:w-auto">{ t('infos.faq.btn.contact') }</a>
-                <Link to='/douai' className="btn btn-secondary w-full max-w-96 md:w-auto">{ t('infos.faq.btn.contact') }</Link>
+                <Link to='/contact' className="btn bg-[rgba(253,224,71,0.7)] text-black border-none hover:bg-[rgba(250,204,21,0.7)]  w-full max-w-96 md:w-auto">{ t('infos.faq.btn.contact') }</Link>
+                <a href={ i18n.language=='en' ? links.meudianGuide : links.guideMeudien } className="btn bg-[rgba(253,224,71,0.7)] text-black border-none hover:bg-[rgba(250,204,21,0.7)]  w-full max-w-96 md:w-auto">{ t('infos.faq.btn.guide') }</a>
+                <Link to='/douai' className="btn bg-[rgba(253,224,71,0.7)] text-black border-none hover:bg-[rgba(250,204,21,0.7)]  w-full max-w-96 md:w-auto">{ t('infos.faq.btn.douai') }</Link>
             </div>
         </div>
         </>

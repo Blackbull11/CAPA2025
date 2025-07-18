@@ -52,7 +52,7 @@ const Contact = () => {
                 <MiniContactList
                     title={ t('contact.vss.titre') }
                     description={ t('contact.vss.texte') }
-                    contactIdList={['remi', 'mathilde', 'zoe-vss', 'andre', 'anneso', 'vincent']}
+                    contactIdList={['louanne', 'ambre', 'shirel', 'vincent', 'andre']}
                     openModal={(idContact) => openModal(idContact)}
                 />
                 <MiniContactList
@@ -63,12 +63,14 @@ const Contact = () => {
                 />
             </div>
             <div className="md:w-1/2">
-                <MiniContactList 
-                    title={ t('contact.admisseurs.titre') }
-                    description={ t('contact.admisseurs.texte') }
-                    contactIdList={['laura', 'louison', 'elia', 'adam']}
-                    openModal={(idContact) => openModal(idContact)}
-                />
+                {/*
+                    <MiniContactList 
+                        title={ t('contact.admisseurs.titre') }
+                        description={ t('contact.admisseurs.texte') }
+                        contactIdList={['laura', 'louison', 'elia', 'adam']}
+                        openModal={(idContact) => openModal(idContact)}
+                    />
+                */}
                 <MiniContactList
                     title={ t('contact.adresses.titre') }
                     description={ t('contact.adresses.texte') }
@@ -106,7 +108,9 @@ const Contact = () => {
 const MiniContactList = ({ title, contactIdList, openModal, description, children }) => {
     return (
         <>
-        <HighlightedText className='text-3xl md:text-5xl text-center font-extrabold font-title mx-auto mb-8 mt-12 w-max'>{ title }</HighlightedText>
+        <div className="z-10 relative">
+            <HighlightedText className='text-3xl md:text-5xl text-center font-extrabold font-title mx-auto mb-8 mt-12 w-max'>{ title }</HighlightedText>
+        </div>
         <div className='text-center text-neutral-500 mb-4'>
             { description }
         </div>
@@ -158,7 +162,7 @@ const InfosContact = ({ contact }) => {
                 <form method="dialog">
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                 </form>
-                <div className="flex flex-row gap-5 items-center">
+                <div className="flex flex-row gap-5 items-center  z-10 relative">
                     <HighlightedText className="font-bold text-xl">{ contact.name }</HighlightedText>
                     <p className="text-neutral-500">-  { contact.description }</p>
                 </div>
