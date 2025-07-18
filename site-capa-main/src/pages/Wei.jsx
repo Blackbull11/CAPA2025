@@ -32,10 +32,8 @@ import wei26 from "../assets/wei/wei26.jpg";
 import wei27 from "../assets/wei/wei27.jpg";
 
 
-
-const leftImages = [wei13, wei2, wei11, wei9, wei6, wei7, wei5, wei24, wei25, wei26, wei16, wei19];
-const rightImages = [wei1, wei4, wei3, wei15, wei8, wei12, wei10, wei14, wei21, wei27, wei17, wei18, wei23];
-
+const leftImages = [wei13, wei2, wei11, wei9, wei6, wei7, wei5];
+const rightImages = [wei1, wei4, wei3, wei15, wei8, wei12, wei10, wei14];
 const Wei = () => {
   return (
     <div className="w-full px-4">
