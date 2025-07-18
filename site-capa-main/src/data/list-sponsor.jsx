@@ -4,6 +4,7 @@ import myprotein from '../assets/sponsors/myprotein.png';
 import rhodia from '../assets/sponsors/rhodia.svg';
 import asus from '../assets/sponsors/asus.png';
 import nestle from '../assets/sponsors/nestle.png';
+import konnect from '../assets/sponsors/konnect.png';
 import mondopal from '../assets/sponsors/mondopal.webp';
 import mediane from '../assets/sponsors/mediane.jpg';
 import sodebo from '../assets/sponsors/sodebo.png';
@@ -19,6 +20,7 @@ const sponsorList = [
     {'name':"My Protein", 'src': myprotein, 'link':'https://fr.myprotein.com/'},
     {'name':"Asus", 'src': asus, 'link':'https://www.asus.com/fr/'},
     {'name':"Nestle", 'src': nestle, 'link':'https://www.nestle.fr/'},
+    {'name':"Konnect", 'src': konnect, 'link':'https://groupe-konnect.fr/'},    
     //{'name':"Lydia", 'src': lydia, 'link':'https://www.lydia.me/'},
     //{'name':"Lipton", 'src': lipton, 'link':'https://www.liptonteas.com/'},
     //{'name':"Lactel", 'src': lactel, 'link':'https://www.lactel.fr/'},
