@@ -1,5 +1,4 @@
 import events from "./list-events";
-import disco from '../assets/events/disco.png';
 import terroir from '../assets/events/terroir.png';
 import beffroi from '../assets/events/beffroi.jpg';
 import retourEnfance from '../assets/events/retour-enfance.png';
@@ -11,6 +10,9 @@ import bds from '../assets/events/bds.jpg';
 import bdh from '../assets/events/bdh.jpg';
 import mouettes from '../assets/events/mouettes.png';
 import blocnote from '../assets/events/bloc-note.png';
+import capannes from '../assets/events/capannes.jpg';
+import duoico from '../assets/events/duoico.jpg';
+
 
 const calendrier = [
     undefined,
@@ -26,7 +28,6 @@ const calendrier = [
             events['accueil-fillot-1'],
             events['warmup-disco']
         ],
-        img: disco,
     },
     {
         jour: 'dimanche',
@@ -69,7 +70,7 @@ const calendrier = [
             events['bbq-beauf']
         ],
         img: beauf,
-        imgDescription: 'Soirée Beauf (CAPA 2023)'
+        imgDescription: 'Soirée Beauf (CAPA 2024)'
     },
     {
         jour: 'jeudi',
@@ -119,7 +120,9 @@ const calendrier = [
         events: [
             events['defis'],
             events['capacannes']
-        ]
+        ],
+        img : capannes,
+        imgDescription: 'Soirée CA(PA)nnes (CAPA 2024)'
     },
     {
         jour: 'mardi',
@@ -157,7 +160,9 @@ const calendrier = [
         events: [
             events['welcome-day'],
             events['duo']
-        ]
+        ],
+        img : duoico,
+        imgDescription: 'Soirée Duo Iconiques (CAPA 2024)'
     },
     {
         jour: 'samedi',
@@ -198,7 +203,7 @@ const calendrier = [
             events['m-comme']
         ],
         img: mouettes,
-        imgDescription: 'Soirée M comme (CAPA 2023)'
+        imgDescription: 'Soirée M comme (CAPA 2024)'
     },
     {
         jour: 'mercredi',
@@ -218,7 +223,7 @@ const calendrier = [
             events['resultat-bloc-note']
         ],
         img: blocnote,
-        imgDescription: 'Soirée Bloc-Note (CAPA 2023)'
+        imgDescription: 'Soirée Bloc-Note (CAPA 2024)'
     },
     {
         jour: 'vendredi',

@@ -17,19 +17,7 @@ import wei11 from "../assets/wei/wei11.jpg";
 import wei12 from "../assets/wei/wei12.jpg";
 import wei13 from "../assets/wei/wei13.jpg";
 import wei14 from "../assets/wei/wei14.jpg"; 
-import wei15 from "../assets/wei/wei15.jpg"; 
-import wei16 from "../assets/wei/wei16.jpg";
-import wei17 from "../assets/wei/wei17.jpg";
-import wei18 from "../assets/wei/wei18.jpg";
-import wei19 from "../assets/wei/wei19.jpg";
-import wei20 from "../assets/wei/wei20.jpg";
-import wei21 from "../assets/wei/wei21.jpg";
-import wei22 from "../assets/wei/wei22.jpg";
-import wei23 from "../assets/wei/wei23.jpg";
-import wei24 from "../assets/wei/wei24.jpg";
-import wei25 from "../assets/wei/wei25.jpg";
-import wei26 from "../assets/wei/wei26.jpg";
-import wei27 from "../assets/wei/wei27.jpg";
+import wei15 from "../assets/wei/wei15.jpg";
 
 
 const leftImages = [wei13, wei2, wei11, wei9, wei6, wei7];
@@ -37,7 +25,7 @@ const rightImages = [wei1, wei4, wei3, wei15, wei8, wei12];
 const Wei = () => {
   return (
     <div className="w-full px-4">
-      <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr_auto] gap-4 max-w-7xl mx-auto mt-28 mb-24">
+      <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr_auto] gap-4vw mx-4vw mt-28 mb-24">
         
         {/* Colonne gauche */}
         <div className="hidden lg:flex flex-col gap-8 max-w-[20vw]">

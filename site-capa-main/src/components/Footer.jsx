@@ -75,7 +75,7 @@ const Footer = () => {
                         {/*<a className='tooltip tooltip-bottom' data-tip='Facebook' href='https://www.facebook.com/people/CAPA-IMT-Nord-Europe/100070338273703/' target="_blank">
                             <Facebook />
                         </a>*/}
-                        <a className='tooltip tooltip-bottom w-min' data-tip='YouTube' href='https://www.youtube.com/@CAPA2024-IMTNordEurope' target="_blank">
+                        <a className='tooltip tooltip-bottom w-min' data-tip='YouTube' href='https://www.youtube.com/@capa2025imtne' target="_blank">
                             <Youtube />
                         </a>
                         <a className='tooltip tooltip-bottom w-min' data-tip='HypAIR' href='https://hypair.imt-ne.fr/capa' target="_blank">

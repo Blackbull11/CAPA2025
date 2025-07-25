@@ -7,7 +7,7 @@ import assos from '../data/list-assos';
 
 const Assos = () => {
 
-    const listeBde = ['capa', 'brasseurs', 'imternational', 'egalimt', 'air', 'cameleon', 'ingecitoyen', 'sobrimt', 'meca', 'robotique', 'cotrad', 'imtalks','imterstellar'];
+    const listeBde = ['capa', 'brasseurs', 'imternational', 'egalimt', 'air', 'cameleon', 'ingecitoyen', 'sobrimt', 'meca', 'robotique', 'cotrad', 'imtalks'];
     const listeBda = ['artelier', 'video', 'imtremplin', 'theatre', 'dance', 'oeno', 'photo', 'dj', 'mine', 'cuisine', 'orchestre', 'poker', 'cine', 'chorale'];
     const listeBds = ['cartel', 'maritimt', 'monkesport', 'rugby', 'ultra', 'weski', 'chessmate', 'pompims', 'irunmines', 'imtrail', 'minotaure'];
     const listeBdh = ['telethon', 'onlyhuman', 'eurotandem', 'dmc'];

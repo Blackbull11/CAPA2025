@@ -1,7 +1,7 @@
 const assos = {
     'bde': {
         name: 'Le BDE',
-        hypairLogoURL:'bde-2/logos/2024-04-14-moyen.png',
+        hypairLogoURL:'bde-2/logos/2025-07-04-petit.png',
         description:<>
         
             <p><b>Aloha Fillot !</b></p>
@@ -111,7 +111,7 @@ En cotisant au BDE, cela donne une aide précieuse aux assos, clubs et comités 
     },
     'cotrad': {
         name: 'CoTrad',
-        hypairLogoURL:'cotrad-9/logos/2022-07-29-moyen.png',
+        hypairLogoURL:'cotrad-9/logos/2025-06-29-petit.png',
         description:<>
             <p><b>Fier.ère de porter l&apos;héritage des Mines et de Télécom : le CoTrad est fait pour toi !</b></p>
             <p>Mais c&apos;est quoi le CoTrad ou Comité Traditions ? C&apos;est le club qui permet de faire perdurer les traditions de l&apos;école et elles sont nombreuses : entre chants et bonnes pratiques, ce n&apos;est pas ce qui manque ici. C&apos;est également le comité qui se charge de conserver et mettre en valeur l&apos;histoire de la vie associative à IMT Nord Europe.</p>
@@ -123,19 +123,12 @@ En cotisant au BDE, cela donne une aide précieuse aux assos, clubs et comités 
         description:<>
             <p>J&apos;ai l&apos;honneur de te présenter le club qui organise le <b>TEDx IMT Nord Europe</b>. Et oui, l&apos;école accueille depuis maintenant 5 ans son propre TEDx. La classe hein ? En plus, depuis l&apos;année dernière, on organise des <b>conférences ouvertes</b> à tous les étudiants d&apos;IMT Nord Europe.</p>
             <p>Alors n&apos;attends plus, rejoins notre équipe !</p>
-        </>
-    },
-    'imterstellar': {
-        name: "IMT'erstellar",
-        hypairLogoURL:'imtalks-12/logos/2022-04-26-moyen.png',
-        description:<>
-            <p>J&apos;ai l&apos;honneur de te présenter le club qui organise le <b>TEDx IMT Nord Europe</b>. Et oui, l&apos;école accueille depuis maintenant 5 ans son propre TEDx. La classe hein ? En plus, depuis l&apos;année dernière, on organise des <b>conférences ouvertes</b> à tous les étudiants d&apos;IMT Nord Europe.</p>
-            <p>Alors n&apos;attends plus, rejoins notre équipe !</p>
+
         </>
     },
     'bda': {
         name: 'Le BDA',
-        hypairLogoURL:'bda-3/logos/2025-06-29-petit.png',
+        hypairLogoURL:'bda-3/logos/2025-07-08-petit.png',
         description:<>
             <p><b>Bienvenue à IMT Nord Europe !
 Pilier de la vie associative de Douai, le Bureau des Arts vous promet une expérience unique et enrichissante avec un programme divertissant toute l&apos;année.</b></p>
@@ -271,7 +264,7 @@ Pilier de la vie associative de Douai, le Bureau des Arts vous promet une expér
     },
     'chorale': {
         name: "Melod'IMT",
-        hypairLogoURL:'chorale-20/logos/2025-05-07-petit.png',
+        hypairLogoURL:'chorale-20/logos/2025-07-04-petit.png',
         description:<>
             <p><b>Le chœur d&apos;artishow rassemble tous les chanteurs qui aiment vibrer ensemble !</b></p>
             <p>Sa méthode est simple : échauffer les cordes vocales et ouvrir son cœur à la voix des autres. Que tu sois chanteur lyrique ou chanteur sous la douche, professionnel de l&apos;harmonie ou débutant en solfège, tu auras voix au chapitre !</p>
@@ -461,7 +454,7 @@ Et surtout n&apos;oubliez pas : à la fin il en restera qu&apos;un !</p>
     },
     'gala': {
         name: 'Le Gala',
-        hypairLogoURL:'gala-50/logos/2023-08-26-moyen.png',
+        hypairLogoURL:'gala-50/logos/2025-07-03-petit.png',
         description:<>
             <p><b>Le Gala est un événement incontournable au sein de la vie associative pour les étudiant.e.s d&apos;IMT Nord Europe.</b></p>
             <p>Cet événement est l&apos;occasion pour des centaines d&apos;élèvesingénieur.e.s de promotions différentes de se réunir dans un cadre de prestige pour profiter d&apos;un dîner, d&apos;un spectacle organisé et joué par les élèves de l&apos;école, et d&apos;une soirée dansante.</p>
